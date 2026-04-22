@@ -1,0 +1,1 @@
+// Side bar that holds Trail Cards

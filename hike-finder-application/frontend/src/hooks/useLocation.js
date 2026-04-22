@@ -1,0 +1,1 @@
+/* get location of user logic */
