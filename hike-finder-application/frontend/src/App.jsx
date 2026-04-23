@@ -1,19 +1,21 @@
 import { useState } from 'react'
 import hikingLogo from './assets/hiking_boot.png'
-import Map from './components/Map.jsx'
+import TrailMap from './components/Map'
 import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  console.log(import.meta.env.VITE_GOOGLE_MAPS_API_KEY)
 
   return (
     <>
       <section id="center">
         <div className="Map">
-          <img src={hikingLogo} className="base" width="2000" height="2700" alt="" />
+          {/* <img src={hikingLogo} className="base" width="2000" height="2700" alt="pixelated hiking boot" /> */}
+          <h1>hello </h1>
         </div>
-        <div className="Map">
-          <Map/>
+        <div className="TrailMap">
+          <TrailMap/>
         </div>
       </section>
 
