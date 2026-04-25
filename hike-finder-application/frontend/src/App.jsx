@@ -12,7 +12,6 @@ function App() {
       <section id="center">
         <div className="Map">
           {/* <img src={hikingLogo} className="base" width="2000" height="2700" alt="pixelated hiking boot" /> */}
-          <h1>hello </h1>
         </div>
         <div className="TrailMap">
           <TrailMap/>
